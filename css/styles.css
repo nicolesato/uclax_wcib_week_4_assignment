@@ -1,0 +1,150 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: black;
+  font-family: 'Alata', 'Helvetica', sans-serif; }
+
+header .nav-link {
+  font-family: 'IBM Plex Mono', sans-serif; }
+
+header nav {
+  background-color: #140064; }
+
+.bg-dark {
+  background-color: red; }
+
+footer a {
+  color: #e7377b; }
+
+footer a:hover {
+  color: #157ffb;
+  text-decoration: none; }
+
+.glow {
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate; }
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073; }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6; } }
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem; }
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10; }
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem; }
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem; }
+
+h1 {
+  color: black;
+  font-weight: bolder; }
+
+p {
+  color: black; }
+
+.carousel-links {
+  font-family: 'IBM Plex Mono', sans-serif;
+  font-size: 1rem; }
+
+.carousel-caption {
+  background-color: rgba(250, 235, 235, 0.6);
+  background-blend-mode: overlay;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0;
+  padding-top: 1rem; }
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-3 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  background-color: #faebeb;
+  padding: 1rem; }
+
+.marketing h2 {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #e7377b;
+  padding-top: 1rem; }
+
+.marketing h3 {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #e7377b; }
+
+.marketing p {
+  font-size: 0.8rem;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 100; }
+
+.item-prices {
+  font-family: 'IBM Plex Mono', sans-serif;
+  font-size: 0.8rem;
+  color: white; }
+
+/* Featurettes
+------------------------- */
+.featurette-divider {
+  margin: 5rem 0;
+  /* Space out the Bootstrap <hr> more */ }
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem; }
+
+.text-color {
+  color: #157ffb; }
+
+.larger-text {
+  font-size: 2rem; }
+
+.larger-text-p {
+  font-size: 1rem; }
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4; }
+  .featurette-heading {
+    font-size: 50px; } }
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem; } }
+
+@media (max-width: 62em) {
+  .circle-image {
+    width: 300px;
+    height: 300px; } }
